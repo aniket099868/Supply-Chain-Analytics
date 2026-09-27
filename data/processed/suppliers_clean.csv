@@ -1,0 +1,26 @@
+Supplier_ID,Supplier_Name,Region,Lead_Time_Days,Supplier_Rating,Defect_Rate
+S001,Supplier A,Tamil Nadu,13,3.2,5.06
+S002,Supplier B,Delhi,13,4.4,2.46
+S003,Supplier C,Karnataka,12,3.9,2.05
+S004,Supplier D,Delhi,14,3.2,3.48
+S005,Supplier E,Delhi,14,4.0,1.28
+S006,Supplier F,Gujarat,5,3.1,4.91
+S007,Supplier G,Karnataka,14,4.8,0.91
+S008,Supplier H,Karnataka,9,3.5,5.93
+S009,Supplier I,Karnataka,6,4.3,4.75
+S010,Supplier J,Delhi,11,3.6,1.59
+S011,Supplier K,Tamil Nadu,5,4.0,0.53
+S012,Supplier L,Karnataka,7,4.1,4.99
+S013,Supplier M,Delhi,5,3.4,4.39
+S014,Supplier N,Gujarat,9,4.9,4.51
+S015,Supplier O,Tamil Nadu,7,4.6,4.74
+S016,Supplier P,Gujarat,11,4.9,0.91
+S017,Supplier Q,Tamil Nadu,9,4.8,2.47
+S018,Supplier R,Delhi,4,4.2,1.14
+S019,Supplier S,Maharashtra,6,4.8,5.25
+S020,Supplier T,Tamil Nadu,11,3.2,3.93
+S021,Supplier U,Gujarat,14,3.4,2.32
+S022,Supplier V,Delhi,4,3.1,0.85
+S023,Supplier W,Tamil Nadu,12,3.7,2.21
+S024,Supplier X,Maharashtra,11,3.8,2.29
+S025,Supplier Y,Maharashtra,12,3.5,4.51

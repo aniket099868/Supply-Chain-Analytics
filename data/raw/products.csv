@@ -1,0 +1,101 @@
+Product_ID,Product_Name,Category,Unit_Cost,Selling_Price
+P0001,Product 001,Furniture,3036.29,3892.88
+P0002,Product 002,Furniture,3452.31,5227.53
+P0003,Product 003,Electronics,279.62,423.5
+P0004,Product 004,Furniture,2658.05,4093.88
+P0005,Product 005,Accessories,1287.18,2009.23
+P0006,Product 006,Furniture,3296.83,4549.97
+P0007,Product 007,Electronics,1036.96,1426.53
+P0008,Product 008,Accessories,3516.5,5307.22
+P0009,Product 009,Home Appliances,2056.33,2966.22
+P0010,Product 010,Furniture,4696.3,6884.24
+P0011,Product 011,Electronics,860.1,1297.12
+P0012,Product 012,Home Appliances,1837.12,2848.46
+P0013,Product 013,Home Appliances,744.67,969.63
+P0014,Product 014,Office Supplies,4638.53,6118.28
+P0015,Product 015,Accessories,4411.23,5259.47
+P0016,Product 016,Furniture,1438.12,2028.07
+P0017,Product 017,Electronics,3367.92,3927.58
+P0018,Product 018,Office Supplies,4122.67,5604.85
+P0019,Product 019,Accessories,2864.96,3994.3
+P0020,Product 020,Office Supplies,2742.32,3507.27
+P0021,Product 021,Accessories,1360.89,1926.85
+P0022,Product 022,Accessories,646.89,752.8
+P0023,Product 023,Furniture,4506.64,5258.38
+P0024,Product 024,Accessories,4522.01,6874.23
+P0025,Product 025,Office Supplies,3238.89,4249.7
+P0026,Product 026,Accessories,1827.34,2205.92
+P0027,Product 027,Furniture,1876.21,2598.57
+P0028,Product 028,Furniture,3684.59,5513.98
+P0029,Product 029,Office Supplies,4506.13,5619.68
+P0030,Product 030,Home Appliances,4458.01,6376.29
+P0031,Product 031,Home Appliances,3943.4,4686.36
+P0032,Product 032,Accessories,3281.75,3850.34
+P0033,Product 033,Electronics,603.87,838.84
+P0034,Product 034,Accessories,975.82,1359.6
+P0035,Product 035,Office Supplies,4513.06,6484.56
+P0036,Product 036,Office Supplies,3110.86,4593.93
+P0037,Product 037,Office Supplies,244.15,387.99
+P0038,Product 038,Office Supplies,687.06,949.75
+P0039,Product 039,Office Supplies,3384.81,4384.45
+P0040,Product 040,Furniture,224.3,338.21
+P0041,Product 041,Home Appliances,971.88,1236.11
+P0042,Product 042,Office Supplies,2833.92,3818.81
+P0043,Product 043,Electronics,3521.1,4173.58
+P0044,Product 044,Electronics,3329.41,3866.8
+P0045,Product 045,Electronics,1276.49,2020.93
+P0046,Product 046,Electronics,3618.46,5522.46
+P0047,Product 047,Furniture,1338.8,1958.92
+P0048,Product 048,Electronics,1761.92,2350.45
+P0049,Product 049,Office Supplies,3783.16,4645.65
+P0050,Product 050,Accessories,3318.24,4049.57
+P0051,Product 051,Electronics,4276.27,5399.26
+P0052,Product 052,Furniture,3356.54,4689.6
+P0053,Product 053,Furniture,2927.88,4308.57
+P0054,Product 054,Electronics,649.64,940.09
+P0055,Product 055,Accessories,1965.04,2507.33
+P0056,Product 056,Electronics,1472.97,2326.84
+P0057,Product 057,Furniture,1371.15,2032.12
+P0058,Product 058,Home Appliances,4870.45,6816.0
+P0059,Product 059,Office Supplies,2086.87,2974.36
+P0060,Product 060,Furniture,4481.82,6000.35
+P0061,Product 061,Electronics,3229.47,4073.91
+P0062,Product 062,Office Supplies,4015.09,5260.52
+P0063,Product 063,Electronics,2612.66,3895.56
+P0064,Product 064,Electronics,2969.14,3433.74
+P0065,Product 065,Home Appliances,2564.08,3082.62
+P0066,Product 066,Office Supplies,1137.17,1331.29
+P0067,Product 067,Office Supplies,3667.77,4285.16
+P0068,Product 068,Home Appliances,1547.71,2375.67
+P0069,Product 069,Furniture,316.72,464.52
+P0070,Product 070,Electronics,3298.27,4496.79
+P0071,Product 071,Accessories,1050.13,1253.88
+P0072,Product 072,Electronics,4714.2,6464.24
+P0073,Product 073,Electronics,4778.86,6513.88
+P0074,Product 074,Furniture,4591.35,5637.91
+P0075,Product 075,Electronics,1976.76,2659.2
+P0076,Product 076,Home Appliances,274.19,364.49
+P0077,Product 077,Home Appliances,4655.93,6644.63
+P0078,Product 078,Office Supplies,2255.28,3238.11
+P0079,Product 079,Accessories,4839.94,5664.6
+P0080,Product 080,Electronics,4825.38,6362.63
+P0081,Product 081,Electronics,4294.45,6148.09
+P0082,Product 082,Furniture,1613.35,2220.63
+P0083,Product 083,Home Appliances,2048.47,3145.26
+P0084,Product 084,Accessories,4285.46,6198.54
+P0085,Product 085,Office Supplies,1721.23,2105.62
+P0086,Product 086,Home Appliances,1013.57,1197.79
+P0087,Product 087,Office Supplies,2872.65,4134.0
+P0088,Product 088,Furniture,4693.54,5453.57
+P0089,Product 089,Furniture,3540.94,5005.47
+P0090,Product 090,Electronics,2936.29,4619.09
+P0091,Product 091,Accessories,666.45,939.0
+P0092,Product 092,Office Supplies,3152.03,4175.42
+P0093,Product 093,Home Appliances,4952.26,7128.68
+P0094,Product 094,Furniture,872.4,1183.16
+P0095,Product 095,Electronics,2687.98,3751.15
+P0096,Product 096,Electronics,4411.39,6942.02
+P0097,Product 097,Office Supplies,3755.69,4971.58
+P0098,Product 098,Furniture,3545.68,5611.17
+P0099,Product 099,Accessories,3571.92,5562.94
+P0100,Product 100,Furniture,1925.56,2384.05

@@ -1,0 +1,9 @@
+Warehouse_ID,Warehouse_Name,City,Capacity
+W001,Mumbai Central,Mumbai,15636
+W002,Pune Distribution,Pune,9107
+W003,Bangalore Hub,Bangalore,10726
+W004,Delhi North,Delhi,8373
+W005,Ahmedabad Hub,Ahmedabad,17161
+W006,Chennai South,Chennai,15738
+W007,Hyderabad Hub,Hyderabad,13945
+W008,Kolkata East,Kolkata,7082
