@@ -1,5 +1,10 @@
 # Supply Chain Analytics & Inventory Optimization
 
+## 📊 Power BI Executive Dashboard
+
+![Supply Chain Analytics Dashboard](reports/dashboard.png)
+
+
 An end-to-end data analytics and business intelligence project designed to analyze supply chain operations, revenue performance, supplier reliability, logistics efficiency, warehouse performance, and inventory risk.
 
 The project uses Python for data generation and analysis, PostgreSQL for relational data storage and SQL analytics, and Power BI for interactive business intelligence and dashboarding.
