@@ -1,7 +1,5 @@
--- ============================================================
 -- SUPPLY CHAIN ANALYTICS DATABASE
--- PostgreSQL Schema
--- ============================================================
+-- PostgreSQL
 
 -- 1. SUPPLIERS
 CREATE TABLE suppliers (

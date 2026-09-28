@@ -1,9 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# ============================================================
 # SUPPLY CHAIN EDA & KPI ANALYSIS
-# ============================================================
 
 PATH = "../data/processed"
 
@@ -11,10 +9,7 @@ print("=" * 70)
 print("SUPPLY CHAIN EDA & KPI ANALYSIS")
 print("=" * 70)
 
-
-# ============================================================
 # LOAD DATA
-# ============================================================
 
 orders = pd.read_csv(
     f"{PATH}/orders_clean.csv"
@@ -41,9 +36,7 @@ products = pd.read_csv(
 )
 
 
-# ============================================================
 # DATE CONVERSION
-# ============================================================
 
 orders["Order_Date"] = pd.to_datetime(
     orders["Order_Date"]
@@ -66,9 +59,7 @@ purchase_orders["Received_Date"] = pd.to_datetime(
 )
 
 
-# ============================================================
 # 1. ORDER KPIs
-# ============================================================
 
 print("\n" + "=" * 70)
 print("1. ORDER KPIs")
@@ -88,9 +79,7 @@ print(f"Total Order Value   : ₹{total_order_value:,.2f}")
 print(f"Average Order Value : ₹{average_order_value:,.2f}")
 
 
-# ============================================================
 # 2. DELIVERY KPIs
-# ============================================================
 
 print("\n" + "=" * 70)
 print("2. DELIVERY KPIs")
@@ -126,9 +115,7 @@ print(f"Average Delivery Time    : {average_delivery_days:.2f} days")
 print(f"Average Delay            : {average_delay_days:.2f} days")
 
 
-# ============================================================
 # 2. FULFILLMENT KPIs
-# ============================================================
 
 print("\n" + "=" * 70)
 print("2. FULFILLMENT KPIs")
@@ -168,9 +155,7 @@ print(f"Fulfillment Rate   : {fulfillment_rate:.2f}%")
 print(f"Pending Rate       : {pending_rate:.2f}%")
 print(f"Cancellation Rate  : {cancellation_rate:.2f}%")
 
-# ============================================================
 # 3. SHIPPING COST KPIs
-# ============================================================
 
 print("\n" + "=" * 70)
 print("3. SHIPPING COST KPIs")
@@ -193,9 +178,7 @@ print(
 )
 
 
-# ============================================================
 # 4. CARRIER PERFORMANCE
-# ============================================================
 
 print("\n" + "=" * 70)
 print("4. CARRIER PERFORMANCE")
@@ -228,9 +211,7 @@ print(
 )
 
 
-# ============================================================
 # 5. SUPPLIER PERFORMANCE
-# ============================================================
 
 print("\n" + "=" * 70)
 print("5. SUPPLIER PERFORMANCE")
@@ -286,9 +267,7 @@ print(
 )
 
 
-# ============================================================
 # 6. INVENTORY KPIs
-# ============================================================
 
 print("\n" + "=" * 70)
 print("6. INVENTORY KPIs")
@@ -352,9 +331,7 @@ print(
 )
 
 
-# ============================================================
 # 7. INVENTORY BY WAREHOUSE
-# ============================================================
 
 print("\n" + "=" * 70)
 print("7. INVENTORY BY WAREHOUSE")
@@ -390,10 +367,7 @@ print(
     )
 )
 
-
-# ============================================================
 # 8. PRODUCT PERFORMANCE
-# ============================================================
 
 print("\n" + "=" * 70)
 print("8. PRODUCT PERFORMANCE")
@@ -434,9 +408,8 @@ print(
 )
 
 
-# ============================================================
+
 # 9. MONTHLY ORDER TREND
-# ============================================================
 
 print("\n" + "=" * 70)
 print("9. MONTHLY ORDER TREND")
@@ -462,9 +435,7 @@ monthly_orders["Revenue"] = (
 print(monthly_orders)
 
 
-# ============================================================
 # FINAL SUMMARY
-# ============================================================
 
 print("\n" + "=" * 70)
 print("EDA COMPLETED")

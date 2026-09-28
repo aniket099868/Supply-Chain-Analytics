@@ -3,13 +3,10 @@ import numpy as np
 import os
 from datetime import datetime, timedelta
 
-# ============================================================
 # SUPPLY CHAIN DATA GENERATION
-# ============================================================
 
 np.random.seed(42)
 
-# Project directories
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_PATH = os.path.join(BASE_DIR, "data", "raw")
 
@@ -19,10 +16,7 @@ print("=" * 60)
 print("SUPPLY CHAIN DATA GENERATION STARTED")
 print("=" * 60)
 
-
-# ============================================================
 # 1. SUPPLIERS
-# ============================================================
 
 supplier_count = 25
 
@@ -50,9 +44,7 @@ suppliers.to_csv(
 print(f"Suppliers created: {len(suppliers):,}")
 
 
-# ============================================================
 # 2. PRODUCTS
-# ============================================================
 
 product_count = 100
 
@@ -91,9 +83,7 @@ products.to_csv(
 print(f"Products created: {len(products):,}")
 
 
-# ============================================================
 # 3. WAREHOUSES
-# ============================================================
 
 warehouse_count = 8
 
@@ -134,9 +124,7 @@ warehouses.to_csv(
 print(f"Warehouses created: {len(warehouses):,}")
 
 
-# ============================================================
 # 4. CUSTOMERS
-# ============================================================
 
 customer_count = 2000
 
@@ -166,9 +154,7 @@ customers.to_csv(
 print(f"Customers created: {len(customers):,}")
 
 
-# ============================================================
 # DATE RANGE
-# ============================================================
 
 start_date = datetime(2025, 1, 1)
 end_date = datetime(2025, 12, 31)
@@ -179,10 +165,7 @@ date_range = pd.date_range(
     freq="D"
 )
 
-
-# ============================================================
 # 5. PURCHASE ORDERS
-# ============================================================
 
 po_count = 10000
 
@@ -256,9 +239,7 @@ purchase_orders.to_csv(
 print(f"Purchase orders created: {len(purchase_orders):,}")
 
 
-# ============================================================
 # 6. CUSTOMER ORDERS
-# ============================================================
 
 order_count = 30000
 
@@ -313,9 +294,7 @@ orders.to_csv(
 print(f"Orders created: {len(orders):,}")
 
 
-# ============================================================
 # 7. ORDER STATUS
-# ============================================================
 
 orders["Order_Status"] = np.random.choice(
     [
@@ -342,11 +321,7 @@ print(
 )
 
 
-# ============================================================
 # 8. SHIPMENTS
-# ============================================================
-
-# Only fulfilled orders are shipped
 
 fulfilled_orders = orders[
     orders["Order_Status"] == "Fulfilled"
@@ -456,9 +431,8 @@ print(
     f"{len(orders) - len(shipments):,}"
 )
 
-# ============================================================
+
 # 8. INVENTORY
-# ============================================================
 
 inventory_records = []
 
@@ -521,9 +495,7 @@ inventory.to_csv(
 print(f"Inventory records created: {len(inventory):,}")
 
 
-# ============================================================
 # FINAL SUMMARY
-# ============================================================
 
 print("\n" + "=" * 60)
 print("DATA GENERATION COMPLETED")
